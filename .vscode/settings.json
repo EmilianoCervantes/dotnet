@@ -14,5 +14,6 @@
     "**/.DS_Store": true
   },
   "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true
+  "files.trimFinalNewlines": true,
+  "cSpell.words": ["dotnet", "LINQ"]
 }

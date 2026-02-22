@@ -42,6 +42,8 @@ object? obj = null;
 Console.WriteLine($"\nMy null: '{obj}'. Wait... nothing got printed?");
 string? nullS = null;
 Console.WriteLine($"My null string: {nullS}. {nullS ?? "Is this text showing? - ?? operator."}");
+Console.WriteLine($"ALTERNATIVE: My null string: {nullS}. {(String.IsNullOrEmpty(nullS) ? "Is this text showing? - ?? operator." : nullS)}");
+
 /*
 CANNOT do null.GetType() - error.
 Console.WriteLine($"Before assigning a value: {nullS.GetType()}.");
@@ -61,7 +63,7 @@ int[] intArr = new int[1];
 // Either do this:
 // string[] strArr = ["one", "two", "three"];
 // Or do this:
-var strArr = new[] { "one", "two", "three" };
+string[] strArr = ["one", "two", "three"];
 Console.WriteLine($"\nMy array of ints: {intArr} - {intArr.GetType()}. And my array of strings: {strArr}");
 
 List<int> intList = [1];
@@ -76,6 +78,33 @@ Console.WriteLine($"NEW list length: {intList.Count}. Last item of the list: {in
 // intArr.Add(2); // int[]' does not contain a definition for 'Add' and no accessible extension method 'Add' accepting a first argument of type 'int[]' could be found
 // We CANNOT add items to an array. They have a fixed length.
 // Console.WriteLine($"NEW arr length: {intList.Count}. Last item of the array: {intArr[intArr.Length - 1]}");
+
+Console.WriteLine("\n----- ----- ----- ----- -----\n");
+Console.WriteLine("\n----- ----- ----- ----- -----\n");
+
+/*
+ * ARRAY.COPY!!!
+ * COPYING without tying the references!
+ */
+Console.WriteLine("HOW TO CLONE IN C#? {...obj}");
+int[] intArr1 = [1, 2, 3, 4];
+int[] intArr2 = intArr1;
+int[] intArr3 = new int[intArr1.Length];
+Array.Copy(intArr1, intArr3, intArr1.Length);
+
+intArr1[0] = 0;
+intArr2[2] = 5;
+Console.WriteLine("I did intArr2 = intArr1; so... I modify both, and the result is:");
+Console.WriteLine($"intArr1[0]: {intArr1[0]} - intArr2[0]: {intArr2[0]}.");
+Console.WriteLine($"intArr2[2]: {intArr2[2]} - intArr1[2]: {intArr1[2]}.");
+Console.WriteLine($"If one changes, the other one as well.");
+
+intArr1[1] = 100;
+intArr3[0] = 300;
+Console.WriteLine("Now I did int[] intArr3 = new int[intArr1.Length]; Array.Copy(intArr1, intArr3, intArr1.Length);");
+Console.WriteLine($"intArr1[1]: {intArr1[1]} - intArr3[1]: {intArr3[1]}.");
+Console.WriteLine($"intArr3[0]: {intArr3[0]} - intArr1[0]: {intArr1[0]}.\n");
+Console.WriteLine($"One does NOT affect the other.");
 
 Console.WriteLine("\n----- ----- ----- ----- -----\n");
 Console.WriteLine("\n----- ----- ----- ----- -----\n");
@@ -96,3 +125,37 @@ int emptyInt;
 // Console.WriteLine($"Empty string: {emptyStr}"); // ❌ ERROR CS0165
 
 Console.WriteLine($"Empty int: {emptyInt = 1000} {emptyInt}");
+
+Console.WriteLine("\n----- ----- ----- ----- -----\n");
+
+// BUT HERE'S THE TRICK!
+Console.WriteLine($"BUT HERE'S THE TRICK!");
+int myInt = default;
+Console.WriteLine($"Let's do int myInt = default; this equals: {myInt}");
+decimal myDec = default;
+Console.WriteLine($"Let's ALSO do decimal myDec = default; this equals: {myDec}");
+bool myBool = default;
+Console.WriteLine($"Let's ALSO do bool myBool = default; this equals: {myBool}");
+string? myStr = default; // ❌ Cannot be "string", has to be of type "string?".
+Console.WriteLine($"Let's ALSO do bool myBool = default; this equals: {myStr}");
+
+Console.WriteLine("\n----- ----- ----- ----- -----\n");
+Console.WriteLine("\n----- ----- ----- ----- -----\n");
+Console.WriteLine("\n----- ----- ----- ----- -----\n");
+Console.WriteLine("\n----- ----- ----- ----- -----\n");
+Console.WriteLine("\n----- ----- ----- ----- -----\n");
+
+Point p = new(100, 100);
+Console.WriteLine($"My point: {p}.");
+
+// Like Classes, they should be at the end
+internal struct Point(int x, int y)
+{
+  public int x = x;
+  public int y = y;
+
+  public override readonly string ToString()
+  {
+    return $"(x: {x}, y: {y})";
+  }
+}
