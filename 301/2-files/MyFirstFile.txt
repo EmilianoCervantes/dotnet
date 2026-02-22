@@ -1,0 +1,3 @@
+I'm replacing everything with this line.I'm appending this.I'm appending this x2.My 2nd StreamWriter line in a file.
+My 3rd StreamWriter line in a file.
+My 4th StreamWriter line in a file.
