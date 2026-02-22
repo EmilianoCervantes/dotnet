@@ -1,0 +1,14 @@
+/Users/emi/Documents/learning/dotnet/201/1-funcs/obj/Debug/net10.0/1-funcs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emi/Documents/learning/dotnet/201/1-funcs/obj/Debug/net10.0/1-funcs.AssemblyInfoInputs.cache
+/Users/emi/Documents/learning/dotnet/201/1-funcs/obj/Debug/net10.0/1-funcs.AssemblyInfo.cs
+/Users/emi/Documents/learning/dotnet/201/1-funcs/obj/Debug/net10.0/1-funcs.csproj.CoreCompileInputs.cache
+/Users/emi/Documents/learning/dotnet/201/1-funcs/bin/Debug/net10.0/1-funcs
+/Users/emi/Documents/learning/dotnet/201/1-funcs/bin/Debug/net10.0/1-funcs.deps.json
+/Users/emi/Documents/learning/dotnet/201/1-funcs/bin/Debug/net10.0/1-funcs.runtimeconfig.json
+/Users/emi/Documents/learning/dotnet/201/1-funcs/bin/Debug/net10.0/1-funcs.dll
+/Users/emi/Documents/learning/dotnet/201/1-funcs/bin/Debug/net10.0/1-funcs.pdb
+/Users/emi/Documents/learning/dotnet/201/1-funcs/obj/Debug/net10.0/1-funcs.dll
+/Users/emi/Documents/learning/dotnet/201/1-funcs/obj/Debug/net10.0/refint/1-funcs.dll
+/Users/emi/Documents/learning/dotnet/201/1-funcs/obj/Debug/net10.0/1-funcs.pdb
+/Users/emi/Documents/learning/dotnet/201/1-funcs/obj/Debug/net10.0/1-funcs.genruntimeconfig.cache
+/Users/emi/Documents/learning/dotnet/201/1-funcs/obj/Debug/net10.0/ref/1-funcs.dll

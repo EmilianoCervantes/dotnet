@@ -1,0 +1,14 @@
+/Users/emi/Documents/learning/dotnet/201/2-oop/obj/Debug/net10.0/2-oop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emi/Documents/learning/dotnet/201/2-oop/obj/Debug/net10.0/2-oop.AssemblyInfoInputs.cache
+/Users/emi/Documents/learning/dotnet/201/2-oop/obj/Debug/net10.0/2-oop.AssemblyInfo.cs
+/Users/emi/Documents/learning/dotnet/201/2-oop/obj/Debug/net10.0/2-oop.csproj.CoreCompileInputs.cache
+/Users/emi/Documents/learning/dotnet/201/2-oop/bin/Debug/net10.0/2-oop
+/Users/emi/Documents/learning/dotnet/201/2-oop/bin/Debug/net10.0/2-oop.deps.json
+/Users/emi/Documents/learning/dotnet/201/2-oop/bin/Debug/net10.0/2-oop.runtimeconfig.json
+/Users/emi/Documents/learning/dotnet/201/2-oop/bin/Debug/net10.0/2-oop.dll
+/Users/emi/Documents/learning/dotnet/201/2-oop/bin/Debug/net10.0/2-oop.pdb
+/Users/emi/Documents/learning/dotnet/201/2-oop/obj/Debug/net10.0/2-oop.dll
+/Users/emi/Documents/learning/dotnet/201/2-oop/obj/Debug/net10.0/refint/2-oop.dll
+/Users/emi/Documents/learning/dotnet/201/2-oop/obj/Debug/net10.0/2-oop.pdb
+/Users/emi/Documents/learning/dotnet/201/2-oop/obj/Debug/net10.0/2-oop.genruntimeconfig.cache
+/Users/emi/Documents/learning/dotnet/201/2-oop/obj/Debug/net10.0/ref/2-oop.dll

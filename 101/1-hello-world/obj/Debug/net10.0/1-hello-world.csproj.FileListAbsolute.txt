@@ -1,0 +1,14 @@
+/Users/emi/Documents/learning/dotnet/101/1-hello-world/bin/Debug/net10.0/1-hello-world
+/Users/emi/Documents/learning/dotnet/101/1-hello-world/bin/Debug/net10.0/1-hello-world.deps.json
+/Users/emi/Documents/learning/dotnet/101/1-hello-world/bin/Debug/net10.0/1-hello-world.runtimeconfig.json
+/Users/emi/Documents/learning/dotnet/101/1-hello-world/bin/Debug/net10.0/1-hello-world.dll
+/Users/emi/Documents/learning/dotnet/101/1-hello-world/bin/Debug/net10.0/1-hello-world.pdb
+/Users/emi/Documents/learning/dotnet/101/1-hello-world/obj/Debug/net10.0/1-hello-world.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emi/Documents/learning/dotnet/101/1-hello-world/obj/Debug/net10.0/1-hello-world.AssemblyInfoInputs.cache
+/Users/emi/Documents/learning/dotnet/101/1-hello-world/obj/Debug/net10.0/1-hello-world.AssemblyInfo.cs
+/Users/emi/Documents/learning/dotnet/101/1-hello-world/obj/Debug/net10.0/1-hello-world.csproj.CoreCompileInputs.cache
+/Users/emi/Documents/learning/dotnet/101/1-hello-world/obj/Debug/net10.0/1-hello-world.dll
+/Users/emi/Documents/learning/dotnet/101/1-hello-world/obj/Debug/net10.0/refint/1-hello-world.dll
+/Users/emi/Documents/learning/dotnet/101/1-hello-world/obj/Debug/net10.0/1-hello-world.pdb
+/Users/emi/Documents/learning/dotnet/101/1-hello-world/obj/Debug/net10.0/1-hello-world.genruntimeconfig.cache
+/Users/emi/Documents/learning/dotnet/101/1-hello-world/obj/Debug/net10.0/ref/1-hello-world.dll

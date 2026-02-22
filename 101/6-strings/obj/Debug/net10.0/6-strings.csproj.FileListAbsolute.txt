@@ -1,0 +1,14 @@
+/Users/emi/Documents/learning/dotnet/101/6-strings/bin/Debug/net10.0/6-strings
+/Users/emi/Documents/learning/dotnet/101/6-strings/bin/Debug/net10.0/6-strings.deps.json
+/Users/emi/Documents/learning/dotnet/101/6-strings/bin/Debug/net10.0/6-strings.runtimeconfig.json
+/Users/emi/Documents/learning/dotnet/101/6-strings/bin/Debug/net10.0/6-strings.dll
+/Users/emi/Documents/learning/dotnet/101/6-strings/bin/Debug/net10.0/6-strings.pdb
+/Users/emi/Documents/learning/dotnet/101/6-strings/obj/Debug/net10.0/6-strings.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emi/Documents/learning/dotnet/101/6-strings/obj/Debug/net10.0/6-strings.AssemblyInfoInputs.cache
+/Users/emi/Documents/learning/dotnet/101/6-strings/obj/Debug/net10.0/6-strings.AssemblyInfo.cs
+/Users/emi/Documents/learning/dotnet/101/6-strings/obj/Debug/net10.0/6-strings.csproj.CoreCompileInputs.cache
+/Users/emi/Documents/learning/dotnet/101/6-strings/obj/Debug/net10.0/6-strings.dll
+/Users/emi/Documents/learning/dotnet/101/6-strings/obj/Debug/net10.0/refint/6-strings.dll
+/Users/emi/Documents/learning/dotnet/101/6-strings/obj/Debug/net10.0/6-strings.pdb
+/Users/emi/Documents/learning/dotnet/101/6-strings/obj/Debug/net10.0/6-strings.genruntimeconfig.cache
+/Users/emi/Documents/learning/dotnet/101/6-strings/obj/Debug/net10.0/ref/6-strings.dll
